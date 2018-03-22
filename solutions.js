@@ -29,7 +29,8 @@
 
 // Title: Guess the Word: Count Matching Letters
 //
-// Solution: function countCorrectCharacters(correctWord, guess){
+// Solution:
+// function countCorrectCharacters(correctWord, guess){
 // var counter = 0;
 //   if(guess.length > correctWord.length || guess.length < correctWord.length){
 //       throw 'error';
@@ -45,4 +46,22 @@
 //     return counter;
 //   }
 //
+// }
+
+// Title: Sum of all the multiples of 3 or 5
+//
+// Solution:
+//
+// function findSum(n) {
+//  var newArray = [];
+//  for(i = 1; i <= n; i++){
+//  if(i % 3 == 0 || i % 5 == 0){
+//  newArray.push(i);
+//  }
+//
+// }
+// var finalArray = newArray.reduce(function(a, b) {
+//  return a+b
+// }, 0);
+//  return finalArray;
 // }
