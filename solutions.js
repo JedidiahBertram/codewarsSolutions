@@ -81,3 +81,23 @@
 //   }
 //  return victims;
 // }
+
+// Title: isEven? - Bitwise Series
+//
+// Solution:
+//
+//   var isEven = function(n) { //if n is even return true, otherwise, return false
+//
+//     var divideNumber = n / 2;
+//     var stringedNum = divideNumber.toString();
+//     var stringArray = stringedNum.split('.');
+//
+//     for (i = 0; i < stringArray.length; i++) {
+//       if (stringArray[1] == undefined) {
+//         return true;
+//       } else {
+//         return false;
+//       }
+// 
+//     }
+//   }
