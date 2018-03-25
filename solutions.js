@@ -65,3 +65,19 @@
 // }, 0);
 //  return finalArray;
 // }
+
+// Title: Friday the 13 th Part 1
+//
+// Solution:
+//
+// function killcount(counselors, jason){
+//   var victims = [];
+//   for(i = 0; i < counselors.length; i++){
+//     for(j = 0; j < counselors[i].length; j++){
+//               }
+//       if(counselors[i][1] < jason){
+//       victims.push(counselors[i][0]);
+//     }
+//   }
+//  return victims;
+// }
