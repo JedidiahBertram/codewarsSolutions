@@ -98,6 +98,25 @@
 //       } else {
 //         return false;
 //       }
-// 
+//
 //     }
 //   }
+//
+// Title: Find the Smalest Integer in the newArray
+//
+// Solution:
+//
+// class SmallestIntegerFinder {
+//   findSmallestInt(args) {
+//     let comparator = Infinity;
+//     for(var i = 0; i <= args.length; i ++){
+//       if( args[i] < comparator){
+//         comparator = args[i];
+//       }
+//
+//     }
+//     return comparator;
+//     console.log(comparator)
+//   }
+//
+// }
