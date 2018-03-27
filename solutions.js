@@ -120,3 +120,20 @@
 //   }
 //
 // }
+
+// Title: Hit Count
+//
+// Solution: function counterEffect(hitCount) {
+//  let hitArray = hitCount.split("");
+//  let tempArray = [];
+//  let interdimensionalArray = [];
+//  for(i = 0; i < hitArray.length; i ++){;
+//    for(j = 0; j <= hitArray[i]; j ++){
+//    tempArray.push(j);
+//    }
+//    interdimensionalArray.push(tempArray)
+//    tempArray = [];
+//  }
+//  return interdimensionalArray;
+//
+// }
