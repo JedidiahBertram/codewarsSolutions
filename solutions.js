@@ -140,16 +140,36 @@
 
  //  Title: Exclamation marks series #13: Count the number of exclamation marks and question marks, return the product
  //
- //  Solution: function product(s){
- //   //coding and coding....
- //   let questionMarks = 0;
- //   let exclamationPoints = 0;
- //   for(i = 0; i < s.length; i++){
- //   if(s[i] == "!"){
- //     exclamationPoints += 1;
- //       } else {
- //         questionMarks += 1;
- //         }
- //     }
- //       return exclamationPoints * questionMarks;
+ //  Solution:
+ //
+ //  function product(s){
+ //  //   //coding and coding....
+ //  //   let questionMarks = 0;
+ //  //   let exclamationPoints = 0;
+ //  //   for(i = 0; i < s.length; i++){
+ //  //   if(s[i] == "!"){
+ //  //     exclamationPoints += 1;
+ //  //       } else {
+ //  //         questionMarks += 1;
+ //  //         }
+ //  //     }
+ //  //       return exclamationPoints * questionMarks;
+ //  // }
+ //
+ //  Title: Count the smiley faces!
+ //
+ // Solution:
+ //
+ //  function countSmileys(arr) {
+ //
+ // let validSmileys = 0;
+ //
+ // for(i = 0; i < arr.length; i++){
+ // if(arr[i] === ':)' || arr[i] === ';)' || arr[i] === ':D' || arr[i] === ';D' || arr[i] === ':~)' || arr[i] === ':-)' || arr[i] === ';~)' || arr[i] === ';-)' || arr[i] === ':~D' || arr[i] === ':-D' || arr[i] === ';~D' || arr[i] === ';-D'){
+ // validSmileys ++;
+ // }
+ // }
+ // return validSmileys;
+ //
+ //
  // }
