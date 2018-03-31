@@ -170,6 +170,37 @@
  // }
  // }
  // return validSmileys;
+ //  //
+ //  //
+ //  // }
  //
+ //  Title: Count the Digit
+ //
+ //  Solution:
+ //
+ //  function nbDig(number, d) {
+ //     // your code
+ //     var powers = [];
+ //     var string;
+ //     var count = 0;
+ //     // var final = [];
+ //     for(var i = 0; i <= number; i++){
+ //     powers.push(i);
+ //     }
+ //     var power2 = powers.map(power => {
+ //       return Math.pow(power, 2);
+ //     })
+ //
+ //     string = power2.toString().split("")
+ //     console.log(string);
+ //     for (var i = 0; i <= string.length; i++) {
+ //       if(string[i] == d){
+ //
+ //         count ++;
+ //       }
+ //
+ //     }
+ //     console.log(count);
+ //   return count;
  //
  // }
