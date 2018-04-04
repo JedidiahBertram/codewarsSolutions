@@ -204,7 +204,7 @@
  //   return count;
  //
  // }
- // 
+ //
  //  Title: Count by X
  //
  //  Solution: function countBy(x, n) {
@@ -213,4 +213,13 @@
  //   z.push(x * i);
  //   }
  //   return z;
+ // }
+ //
+ //  Title: Remove String Spaces
+ //
+ //  Solution:
+ //
+ //  function noSpace(x){
+ // var spaceKiller = x.split(" ").join('');
+ // return spaceKiller;
  // }
