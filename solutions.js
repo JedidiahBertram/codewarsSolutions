@@ -235,3 +235,9 @@
  // }
 
  //return newString;
+
+ //  Title: Multiply
+ //
+ //  Solution: function multiply(a, b){
+ //   return a * b
+ // }
