@@ -241,3 +241,12 @@
  //  Solution: function multiply(a, b){
  //   return a * b
  // }
+
+ //  Title: Basic Mathematical Operations
+ //
+ //  Solution: function basicOp(operation, value1, value2)
+ // {
+ //
+ // return eval(value1 + operation + value2)
+ //
+ // }
