@@ -223,3 +223,15 @@
  // var spaceKiller = x.split(" ").join('');
  // return spaceKiller;
  // }
+
+ //  Title: Convert a string to an array
+ //
+ //  Solution:
+ //
+ //  function stringToArray(string){
+ //
+ // var newString = string.split(" ");
+ // return newString;
+ // }
+
+ //return newString;
