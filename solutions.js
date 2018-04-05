@@ -250,3 +250,13 @@
  // return eval(value1 + operation + value2)
  //
  // }
+
+ //  Title: String Repeat
+ //
+ //  Solution:
+ // 
+ // function repeatStr (n, s) {
+ // let repeat = s.repeat(n);
+ // console.log(repeat)
+ //   return repeat;
+ // }
