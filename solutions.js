@@ -254,9 +254,35 @@
  //  Title: String Repeat
  //
  //  Solution:
- // 
+ //
  // function repeatStr (n, s) {
  // let repeat = s.repeat(n);
  // console.log(repeat)
  //   return repeat;
+ // }
+
+ //  Title: Who Likes it?
+ //
+ //  Solution:
+ //
+ //  function likes(names) {
+ //
+ //   for(var i = 0; i<= names.length; i++){
+ //   if(names.length < 1){
+ //     return 'no one likes this';
+ //     }
+ //   if(names.length < 2){
+ //     return  names[i] + ' likes this';
+ //     }
+ //     if(names.length > 1 && names.length < 3){
+ //     return  names[0] + ' and ' + names[1] + ' like this';
+ //     }
+ //   if(names.length > 2 && names.length < 4){
+ //     return names[0] + ', ' + names[1] + ' and ' + names[2] + ' like this';
+ //     }
+ //   if(names.length > 3){
+ //     return names[0] + ', ' + names[1] + ' and ' + (names.length - 2) + ' others like this';
+ //     }
+ //   }
+ //
  // }
